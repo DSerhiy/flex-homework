@@ -1,3 +1,5 @@
+/* GENERAL, BUTTON, HEADER, FOOTER STYLES */
+
 /* GENERAL STYLES */
 
 * {
@@ -21,7 +23,7 @@ h1, h2, p {
 
 .wrapper {
   max-width: 1100px;
-  margin: 0 auto;  
+  margin: 0 auto; 
 }
 
 /* General button style */
@@ -48,6 +50,7 @@ h1, h2, p {
 
 .header {
   position: fixed;
+  top: 0;
   width: 100%;
   color: white; 
   font-size: 1.3rem;
@@ -79,100 +82,6 @@ h1, h2, p {
 
 .header__nav-item:last-child {
   margin-right: 0;
-}
-
-/* HEADER CLONE to move all section down on header height*/
-.header-clone {
-  height: 55px;
-  margin-bottom: 25px;
-}
-
-/* GREETING SECTION */
-
-.greeting-section {
-  margin-bottom: 25px;
-  padding: 70px 35px 70px 35px;
-  background-color: #e5e8eb;
-  border-radius: 5px;  
-}
-
-.greeting-section__title {
-  font-size: 4.5rem;
-  font-weight: 100;
-  color: #34383c;
-  text-transform: capitalize;
-}
-
-.greeting-section__text {
-  font-size: 1.3rem;
-  font-weight: 100;
-  margin-bottom: 20px;
-}
-
-.gretting-section__btn {
-  height: 50px;
-  width: 155px;  
-}
-
-/* CARDS SECTION */
-
-.cards {
-  margin-bottom: 25px;
-}
-
-.cards__list {
-  display: flex;
-}
-
-.cards__item {
-  flex-basis: 25%;
-  margin-right: 30px;
-  border: 1px solid rgba(167, 167, 167, 0.247);
-  border-radius: 5px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-}
-.cards__item:last-child {
-  margin-right: 0;
-}
-
-.cards__item-header-photo {
-  width: 100%;
-  height: auto;
-}
-
-.cards__item-main {
-  flex-grow: 1;
-  padding: 15px;  
-}
-
-.cards__item-main-title {
-  margin-bottom: 15px; 
-  font-weight: 500;
-  color: #1d1d1de1;
-}
-
-.cards__item-main-text {
-  line-height: 1.5rem
-}
-
-.cards__item-footer {
-  border-top: 1px solid rgba(167, 167, 167, 0.26);
-  padding: 10px 0;
-  background-color: #f6f6f6;
-}
-
-.cards__item-footer-btn {
-  width: 130px;
-  height: 40px;
-  margin: 0 auto;
-  font-weight: normal;
-  font-size: 1rem;
-  text-transform: capitalize;
-  
 }
 
 /* FOOTER */

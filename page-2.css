@@ -1,0 +1,106 @@
+/* GREETING SECTION */
+
+.greeting-section {
+  margin-top: 80px;
+  margin-bottom: 20px; 
+  display: flex;
+}
+
+.greeting-section__photo {
+  flex-basis: calc(100% / 3 * 2);
+  margin-right: 25px;   
+}
+
+.greeting-section__photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.greeting-section__article {
+  flex-basis: calc(100% / 3);
+}
+
+.greeting-section__article-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 3rem;
+  margin-bottom: 15px;
+}
+
+.greeting-section__article-text {
+  line-height: 1.5rem;
+  margin-bottom: 15px; 
+}
+
+.greeting-section__article-btn {
+  width: 160px;
+  height: 50px;
+}
+
+/* ACTION CARD SECTION */
+
+.action-card {
+  margin-bottom: 20px; 
+  padding: 20px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  background-color: #6b747c;
+}
+
+/* CARDS SECTION */
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+
+.card {
+  flex-basis: calc(100% / 3);
+  margin-right: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.26);
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:last-child{
+  margin-right: 0;
+}
+
+.card__header {
+  flex-grow: 1;
+  padding: 20px 15px;
+  color: rgba(0, 0, 0, 0.808);
+}
+
+.card__header-title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 500; 
+}
+
+.card__header-text {
+  line-height: 1.5rem;  
+}
+
+.card__bottom {
+  padding: 10px 15px;
+  background-color: #f6f6f6;
+  border-top: 1px solid  rgba(128, 128, 128, 0.267); 
+}
+
+.card__bottom-btn {
+  width: 95px;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
